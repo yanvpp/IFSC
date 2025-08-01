@@ -9,8 +9,7 @@
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
-            ],
-            "compilerPath": "C:\\git-w64\\bin\\gcc.exe"
+            ]
         },
         {
             "name": "C:/mingw-w64/include",
