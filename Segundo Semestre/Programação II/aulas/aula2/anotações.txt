@@ -1,0 +1,25 @@
+quando precisamos utilizar acentos e outros elementos gráficos, recomenda-se o wchar
+(#include <wchar.h>) // biblioteca específica
+
+com ponteiros, nos aproximamos do baixo nível
+
+também com ponteiros, podemos realizar alocação dinâmica de memória: função malloc (memory allocation)
+
+o que o seguinte código faz:
+
+int dia = 25;
+
+int *pont = &dia;
+pont++;
+
+resposta: irá alterar o endereço da memória, incrementando 1, sem alterar o valor que o ponteiro estava
+apontando. porém, você não sabe mais para onde ele estará apontando, podendo ser até para outro programa
+
+(exemplo melhor detalhado em 'teste_ponteiros.c')
+
+ponteiros podem apontar para vetores (arrays) e alterar os valores de cada elemento separadamente
+
+para percorrer vetores (arrays) de duas ou mais dimensões, utilizar for aninhado (for dentro de for)
+
+ponteiros de vetores otimizam o armazenamentod e memória, principalmente quando você não sabe a quantidade
+de caracteres necessária para cada elemento, alocando somente o necessário.
