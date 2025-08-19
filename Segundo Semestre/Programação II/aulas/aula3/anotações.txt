@@ -1,0 +1,31 @@
+Structs:
+
+    typedef struct{}Name; == struct Name{}
+
+    union agrupa variáveis de vários tipos, mas só armazena um membro por vez
+
+    Enum é equivalente as macros (#define)
+
+Alocação dinâmica de memória:
+
+    malloc (memory allocation), calloc (contiguos allocation), realloc (re-allocation)
+    free (liberar memória que havia sido alocada anteriormente)
+
+Manipulação de arquivos:
+
+    Tipos: Texto (sequência de caracteres) e Binário (sequência de bytes)
+
+    esqueleto de manipulador de arquivos:
+
+        FILE *arquivos
+
+        arquivo = fopen("agenda.txt", "r");
+
+        if (arquivo == NULL){
+            printf("Não foi possível abrir o arquivo\n");
+            exit(EXIT_FAILURE);
+        }
+
+        // código de execução ............
+
+        fclose;
