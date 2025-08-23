@@ -23,4 +23,7 @@
 
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "files.associations": {
+        "cstdlib": "c"
+    },
 }
